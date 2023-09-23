@@ -1,1 +1,1 @@
-FROM --platform linux/aarch64 gcr.io/knative-releases/knative.dev/serving/cmd/queue@sha256:cdb92342ed096c133adc4d0018207d05a614f29d81041a8bc8a4bf1df231f145
+FROM --platform=${TARGETPLATFORM:-linux/aarch64} gcr.io/knative-releases/knative.dev/serving/cmd/queue@sha256:cdb92342ed096c133adc4d0018207d05a614f29d81041a8bc8a4bf1df231f145
